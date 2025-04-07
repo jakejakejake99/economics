@@ -103,7 +103,8 @@ print(results.summary())
 
 # compute and plot IRFs for 12 quarters ahead
 irf = results.irf(12)
-irf.plot(orth=True)
+fig = irf.plot(orth=True)
 plt.tight_layout()
-plt.show()
+fig.savefig("irf_plot.png")
+
 
