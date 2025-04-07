@@ -11,7 +11,7 @@ Caballero, R. J., & Simsek, A. (2022). *A Model of FOMC Information Effects*. Th
 
 ## Input
 
-- `error_data.d_
+- `error_data.dta
 
 **input:**  
 - `error_data.dta` (proprietary fed funds futures data must obtain from Bloomberg)
