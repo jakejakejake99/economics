@@ -5,7 +5,7 @@
 
 * load dataset
 clear
-use "error_data.dta", clear
+use "data_figure1.dta", clear
 tsset date, daily
 
 * Safe calendar transformations — only if not already defined
