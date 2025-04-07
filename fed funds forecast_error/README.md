@@ -5,14 +5,9 @@ This project adapts the forecast comparison framework and data structure convent
 
 > **Caballero, R. J., & Simsek, A. (2022).** "Monetary Policy with Opinionated Markets." *American Economic Review*, 112(7), 2353–2392. https://doi.org/10.1257/aer.20210271
 
-i used their convention of structuring quarterly futures-based forecast variables (e.g., `ffq0`, `ffq1`, etc.) and shifting market forecasts back one day to align with the available information set on forecast dates. the Greenbook vs. market forecast comparison methodology is also adapted from their empirical approach in Figure 1 and Appendix D.
+I used their convention of structuring quarterly futures-based forecast variables (e.g., `ffq0`, `ffq1`, etc.) and shifting market forecasts back one day to align with the available information set on forecast dates. The Greenbook vs. market forecast comparison methodology is also adapted from their empirical approach in Figure 1 and Appendix D.
 
 ---
-
-## Input
-
-- `error_data.dta
-
 **input:**  
 - `error_data.dta` (proprietary fed funds futures data must obtain from Bloomberg)
 
