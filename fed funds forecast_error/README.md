@@ -19,10 +19,10 @@ the panel is structured daily and spans several decades, enabling comparisons of
 
 **description:**    
 - forecasts are compared to the realized fed funds rate on the specific future date the forecast was targeting  
-- market-implied forecasts (`ffq1`, `ffq2`, `ffq3`) are shifted back one day (like in caballero-simsek 2022)  
+- market-implied forecasts (`ffq1`, `ffq2`, `ffq3`) are shifted back one day (like in Caballero-Simsek 2022)  
 - keeps only rows where both greenbook and market forecasts are available to ensure apples-to-apples comparison and avoid  
   bias from the more frequent market data  
-- computes mean absolute errors (mae) for each forecast type (greenbook vs. market) over q1, q2, and q3  
+- computes mean absolute errors (mae) for each forecast type (Greenbook vs. market) over q1, q2, and q3  
 - includes bar graphs of average forecast error **by decade and quarter**, split by forecast type  
 
 **output:**  
