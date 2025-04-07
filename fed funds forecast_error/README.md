@@ -1,7 +1,7 @@
 # readme for forecast accuracy experiment using error_data8824_figure1.dta
 
 **input:**  
-- `error_data8824_figure1.dta` (proprietary fed funds futures data must obtain from bloomberg)
+- `error_data.dta` (proprietary fed funds futures data must obtain from bloomberg)
 
 **dataset description:**  
 the file `error_data8824_figure1.dta` is a proprietary panel of fed funds futures and forecast data used to evaluate the accuracy of monetary policy expectations. it includes:
