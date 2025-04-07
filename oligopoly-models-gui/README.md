@@ -1,13 +1,13 @@
-# COURNOT COMPETITION INTERACTIVE APP
+# cournot competition interactive app
 
-THIS REPOSITORY CONTAINS A PYTHON SCRIPT THAT IMPLEMENTS AN INTERACTIVE APPLICATION TO VISUALIZE MODELS OF INDUSTRIAL COMPETITION. THE APP ALLOWS YOU TO EXPLORE DIFFERENT SCENARIOS, INCLUDING:
+this repository contains a python script that implements an interactive application to visualize models of industrial competition. the app allows you to explore different scenarios, including:
 
-- **COURNOT EQUILIBRIUM** (WHERE BOTH FIRMS CHOOSE OUTPUT SIMULTANEOUSLY)
-- **STACKELBERG COMPETITION** (WHERE ONE FIRM LEADS AND THE OTHER FOLLOWS)
+- cournot equilibrium (where both firms choose output simultaneously)
+- stackelberg competition (where one firm leads and the other follows)
 
-ADDITIONALLY, THE APP DISPLAYS ISO-PROFIT CONTOURS AND A SHADED REGION LABELED **"POTENTIAL GAINS FROM COOPERATION"**. THIS REGION ILLUSTRATES HOW BOTH FIRMS COULD ACHIEVE HIGHER PROFITS THAN THE COURNOT OUTCOME IF THEY COOPERATED, EVEN THOUGH THIS IS ONLY A PEDAGOGICAL TOOL AND NOT AN IMPLEMENTATION OF A FULL COLLUSION MODEL.
+additionally, the app displays iso-profit contours and a shaded region labeled "potential gains from cooperation". this region illustrates how both firms could achieve higher profits than the cournot outcome if they cooperated, even though this is only a pedagogical tool and not an implementation of a full collusion model.
 
-## INSTALLATION
+## installation
 
-1. ENSURE YOU HAVE **PYTHON 3** INSTALLED.
-2. INSTALL THE REQUIRED PACKAGES BY RUNNING:
+1. ensure you have python 3 installed.
+2. install the required packages by running:
