@@ -1,11 +1,11 @@
-# readme for forecast accuracy experiment using error_data8824_figure1.dta
-# Forecast Accuracy Experiment Using `error_data8824_figure1.dta`
+# readme for forecast accuracy experiment using error_data.dta
 
-**Inspired by:**  
-This project is inspired by the methodology of *Caballero and Simsek (2022)*, who evaluate monetary policy expectations using proprietary Fed Funds Futures data.
+**Attribution:**  
+This project adapts the forecast comparison framework and data structure conventions from:
 
-**Citation:**  
-Caballero, R. J., & Simsek, A. (2022). *A Model of FOMC Information Effects*. The Quarterly Journal of Economics, 137(2), 1225–1294. [https://doi.org/10.1093/qje/qjac002](https://doi.org/10.1093/qje/qjac002)
+> **Caballero, R. J., & Simsek, A. (2022).** "Monetary Policy with Opinionated Markets." *American Economic Review*, 112(7), 2353–2392. https://doi.org/10.1257/aer.20210271
+
+i used their convention of structuring quarterly futures-based forecast variables (e.g., `ffq0`, `ffq1`, etc.) and shifting market forecasts back one day to align with the available information set on forecast dates. the Greenbook vs. market forecast comparison methodology is also adapted from their empirical approach in Figure 1 and Appendix D.
 
 ---
 
