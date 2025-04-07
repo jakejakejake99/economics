@@ -1,4 +1,17 @@
 # readme for forecast accuracy experiment using error_data8824_figure1.dta
+# Forecast Accuracy Experiment Using `error_data8824_figure1.dta`
+
+**Inspired by:**  
+This project is inspired by the methodology of *Caballero and Simsek (2022)*, who evaluate monetary policy expectations using proprietary Fed Funds Futures data.
+
+**Citation:**  
+Caballero, R. J., & Simsek, A. (2022). *A Model of FOMC Information Effects*. The Quarterly Journal of Economics, 137(2), 1225–1294. [https://doi.org/10.1093/qje/qjac002](https://doi.org/10.1093/qje/qjac002)
+
+---
+
+## Input
+
+- `error_data.d_
 
 **input:**  
 - `error_data.dta` (proprietary fed funds futures data must obtain from Bloomberg)
