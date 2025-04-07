@@ -1,12 +1,11 @@
 *******************************************************  
-* Forecast Accuracy Evaluation: Multiple Horizons
-* Compares forward Fed Funds rate forecasts to realized ffr
-* Includes: Monthly, Market-implied Quarterly, and Greenbook Forecasts
+* forecast accuracy evaluation over 3 quarters
+* compares forward (futures implied) ffr forecasts to realized ffr
 *******************************************************
 
-* Load dataset
+* load dataset
 clear
-use "ERROR_data8824_Figure1.dta", clear
+use "error_data.dta", clear
 tsset date, daily
 
 * Safe calendar transformations — only if not already defined
