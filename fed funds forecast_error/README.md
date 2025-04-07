@@ -1,11 +1,11 @@
-# README for Forecast Accuracy Experiment Using `error_data.dta`
+# README for Forecast Accuracy Experiment Using `data_figure1.dta`
 
 **Attribution:**  
 This project builds on the empirical structure and comparison methodology introduced by:
 
 > **Caballero, R. J., & Simsek, A. (2022).** "Monetary Policy with Opinionated Markets." *American Economic Review*, 112(7), 2353–2392. https://doi.org/10.1257/aer.20210271
 
-We rely on their `.do` files to generate the processed panel `error_data8824_figure1.dta` from proprietary Bloomberg futures data. These original scripts are **not included in this repository** and must be obtained through the AER replication archive or directly from the authors.
+We rely on their `.do` files to generate the processed panel `data_figure1.dta` from proprietary Bloomberg futures data. These original scripts are **not included in this repository** and must be obtained through the AER replication archive or directly from the authors.
 
 Our contribution begins after this data has been constructed. We use their conventions for:
 - Structuring quarterly futures-based forecasts (`ffq0`, `ffq1`, ..., `ffq11`)
@@ -18,11 +18,11 @@ We extend their setup by constructing **forecast accuracy metrics** (mean absolu
 
 ## Input
 
-- `error_data.dta` — a proprietary panel of fed funds futures and forecast data (must be obtained via Bloomberg and processed using Caballero & Simsek’s original Stata code).
+- `data_figure1.dta` — a proprietary panel of fed funds futures and forecast data (must be obtained via Bloomberg and processed using Caballero & Simsek’s original Stata code).
 
 ### dataset description
 
-the processed file `error_data8824_figure1.dta` is structured daily and spans several decades. it includes:
+the processed file `data_figure1.dta` is structured daily and spans several decades. it includes:
 
 - realized federal funds rates (`ffr`)
 - daily futures-implied forecasts for up to 36 days ahead (`ff0` to `ff35`)
