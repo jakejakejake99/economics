@@ -18,37 +18,37 @@ We extend their setup by constructing **forecast accuracy metrics** (mean absolu
 
 ## Input
 
-- `error_data.dta` — a proprietary panel of Fed Funds Futures and forecast data (must be obtained via Bloomberg and processed using Caballero & Simsek’s original Stata code).
+- `error_data.dta` — a proprietary panel of fed funds futures and forecast data (must be obtained via Bloomberg and processed using Caballero & Simsek’s original Stata code).
 
-### Dataset Description
+### dataset description
 
-The processed file `error_data8824_figure1.dta` is structured daily and spans several decades. It includes:
+the processed file `error_data8824_figure1.dta` is structured daily and spans several decades. it includes:
 
-- Realized federal funds rates (`ffr`)
-- Daily futures-implied forecasts for up to 36 days ahead (`ff0` to `ff35`)
-- Monthly and quarterly average forecasts (`ffy0`–`ffy2`, `ffq0`–`ffq11`)
-- Greenbook forecasts at multiple horizons (`ffrFq0`–`ffrFq23`)
-- Dots plot projections (`dotsy0`–`dotsy3`)
-- Realized values for output and inflation (`pgdpFq0`, `rt3mFq0`, etc.)
-- Metadata: `book_date`, `date`, `month`, `quarter`, `year`
+- realized federal funds rates (`ffr`)
+- daily futures-implied forecasts for up to 36 days ahead (`ff0` to `ff35`)
+- monthly and quarterly average forecasts (`ffy0`–`ffy2`, `ffq0`–`ffq11`)
+- greenbook forecasts at multiple horizons (`ffrFq0`–`ffrFq23`)
+- dots plot projections (`dotsy0`–`dotsy3`)
+- realized values for output and inflation (`pgdpFq0`, `rt3mFq0`, etc.)
+- metadata: `book_date`, `date`, `month`, `quarter`, `year`
 
-Forecast variables target future quarters (e.g., `q1`, `q2`, `q3`) from the perspective of each forecast date.
-
----
-
-## Methodology
-
-- Compares forecast values (Greenbook vs. market) against the realized federal funds rate for the targeted quarter
-- Shifts market-implied forecasts (`ffq1`, `ffq2`, `ffq3`) back one day to align with the forecast timing conventions used in Caballero-Simsek (2022)
-- Filters the panel to include only observations where both Greenbook and market forecasts are present
-- Computes mean absolute errors (MAE) for each forecast type (Greenbook vs. market) at horizons `q1`, `q2`, and `q3`
-- Produces bar graphs of average forecast error **by decade and forecast quarter**, separated by forecast source
+forecast variables target future quarters (e.g., `q1`, `q2`, `q3`) from the perspective of each forecast date.
 
 ---
 
-## Output
+## methodology
+
+- compares forecast values (Greenbook vs. market) against the realized federal funds rate for the targeted quarter
+- shifts market-implied forecasts (`ffq1`, `ffq2`, `ffq3`) back one day to align with the forecast timing conventions used in Caballero-Simsek (2022)
+- filters the panel to include only observations where both Greenbook and market forecasts are present
+- computes mean absolute errors (MAE) for each forecast type (Greenbook vs. market) at horizons `q1`, `q2`, and `q3`
+- produces bar graphs of average forecast error **by decade and forecast quarter**, separated by forecast source
+
+---
+
+## output
 
 - `forecast_accuracy_dataset.dta` — final dataset including:
-  - Forecasts (Greenbook, market)
-  - Realized outcomes
-  - Absolute errors for each forecast
+  - forecasts (Greenbook, market)
+  - realized outcomes
+  - absolute errors for each forecast
