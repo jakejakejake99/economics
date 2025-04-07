@@ -1,4 +1,4 @@
-# readme for forecast accuracy experiment using error_data.dta
+# readme for forecast accuracy experiment using data_figure1.dta
 
 **Attribution:**  
 This project adapts the forecast comparison framework and data structure conventions from:
@@ -9,7 +9,7 @@ I used their convention of structuring quarterly futures-based forecast variable
 
 ---
 **input:**  
-- `error_data.dta` (proprietary fed funds futures data must obtain from Bloomberg)
+- `data_figure1.dta` (proprietary fed funds futures data must obtain from Bloomberg)
 
 **dataset description:**  
 the file `error_data8824_figure1.dta` is a proprietary panel of fed funds futures and forecast data used to evaluate the accuracy of monetary policy expectations. it includes:
